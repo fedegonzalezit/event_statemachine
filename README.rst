@@ -10,6 +10,11 @@ Event State Machine
         :target: https://event-statemachine.readthedocs.io/en/latest/?version=latest
         :alt: Documentation Status
 
+.. image:: https://codecov.io/gh/fedegonzalezit/event_statemachine/branch/develop/graph/badge.svg
+        :target: https://codecov.io/gh/fedegonzalezit/event_statemachine
+        :alt: Coverage report
+
+
 .. image:: https://img.shields.io/pypi/v/event_statemachine.svg
         :target: https://pypi.python.org/pypi/event_statemachine
 
@@ -35,7 +40,7 @@ To install Event StateMachine, run this command in your terminal:
 
 Let's implement this simple turnstile example:
 
-.. image:: https://raw.githubusercontent.com/fedegonzalezit/event_statemachine/main/docs/_static/turnstile.jpg
+.. image:: https://raw.githubusercontent.com/fedegonzalezit/event_statemachine/develop/docs/_static/turnstile.jpg
     :alt: Turnstile example
 
 Define your state machine:
