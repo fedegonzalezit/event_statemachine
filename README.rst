@@ -30,7 +30,7 @@ Welcome to Event StateMachine. I always struggled to find a simple statemachine 
 The desing is based on transitions more than states, so you can define a transition from a state to another and the event that triggers it.
 
 Getting started
---------
+---------------
 
 To install Event StateMachine, run this command in your terminal:
 
