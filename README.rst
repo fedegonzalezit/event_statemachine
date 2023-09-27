@@ -36,7 +36,7 @@ To install Event StateMachine, run this command in your terminal:
 
 Let's implement this simple turnstile example:
 
-.. image:: https://raw.githubusercontent.com/fedegonzalezit/event_statemachine/master/docs/source/_static/turnstile.png
+.. image:: https://raw.githubusercontent.com/fedegonzalezit/event_statemachine/main/docs/_static/turnstile.png
     :alt: Turnstile example
 
 Define your state machine:
