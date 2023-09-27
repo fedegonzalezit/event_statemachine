@@ -4,10 +4,26 @@ event\_statemachine package
 Submodules
 ----------
 
-event\_statemachine.event\_statemachine module
-----------------------------------------------
+event\_statemachine.context module
+----------------------------------
 
-.. automodule:: event_statemachine.event_statemachine
+.. automodule:: event_statemachine.context
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+event\_statemachine.handler module
+----------------------------------
+
+.. automodule:: event_statemachine.handler
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+event\_statemachine.sm module
+-----------------------------
+
+.. automodule:: event_statemachine.sm
    :members:
    :undoc-members:
    :show-inheritance:
