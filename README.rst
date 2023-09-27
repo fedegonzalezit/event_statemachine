@@ -6,8 +6,8 @@ Event StateMachine
 .. image:: https://img.shields.io/pypi/v/event_statemachine.svg
         :target: https://pypi.python.org/pypi/event_statemachine
 
-.. image:: https://github.com/fedegonzalezit/event_statemachine/actions/workflows/python-app.yml/badge.svg?branch=develop
-        :target: https://github.com/fedegonzalezit/event_statemachine/actions/workflows/python-app.yml?query=branch%3Adevelop
+.. image:: https://github.com/fedegonzalezit/event_statemachine/actions/workflows/test.yml/badge.svg?branch=develop
+        :target: https://github.com/fedegonzalezit/event_statemachine/actions/workflows/test.yml?query=branch%3Adevelop
 
 .. image:: https://readthedocs.org/projects/event-statemachine/badge/?version=latest
         :target: https://event-statemachine.readthedocs.io/en/latest/?version=latest
