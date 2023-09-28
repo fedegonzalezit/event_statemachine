@@ -20,7 +20,7 @@ Event State Machine
 
 
 
-A simple event driven statemachine
+A simple event driven state machine
 
 
 * Free software: MIT license
