@@ -30,7 +30,7 @@ setup(
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
     ],
-    description="A simple event driven statemachine",
+    description="A simple event driven state machine",
     install_requires=requirements,
     license="MIT license",
     long_description=readme + "\n\n" + history,
@@ -41,6 +41,6 @@ setup(
     test_suite="tests",
     tests_require=test_requirements,
     url="https://github.com/fedegonzalezit/event_statemachine",
-    version="0.0.2",
+    version="0.0.3",
     zip_safe=False,
 )
