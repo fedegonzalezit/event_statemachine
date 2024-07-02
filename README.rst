@@ -20,14 +20,13 @@ Event State Machine
 
 
 
-A simple event driven state machine
+A simple event-driven state machine
 
 
 * Free software: MIT license
 * Documentation: https://event-statemachine.readthedocs.io.
 
-Welcome to Event StateMachine. I always struggled to find a simple statemachine that could be used in a python project. So I decided to create my own, it's simple but useful.
-The desing is based on transitions more than states, so you can define a transition from a state to another and the event that triggers it.
+Welcome to Event StateMachine. I always struggled to find a simple state machine that could be used in a Python project. So I decided to create my own, it's simple but useful. The design is based on transitions more than states, so you can define a transition from one state to another and the event that triggers it.
 
 Getting started
 ---------------
@@ -100,7 +99,7 @@ Send events to your state machine:
     sm.run_state(evt)  # Print: Unlocking turnstile
 
     evt = {"action": "coin", "coin": "valid"}
-    sm.run_state(evt)  # Print: turnstile already unlocked, returning coin
+    sm.run_state(evt)  # Print: turnstile already unlocked, returning the coin
 
     evt = {"action": "push"}
     sm.run_state(evt)  # Print: Locking turnstile
@@ -110,6 +109,6 @@ Features
 
 - Define your transitions using ``@transition`` decorator
 - Each transition can have a condition to be executed using ``@event_condition`` decorator.
-- You can get the context of the state maching using the method ``get_context()`` and load it using the method ``set_context()``. This allows you to use an stateless architecture and save the context of the state machine in a database.
+- You can get the context of the state machine using the method ``get_context()`` and load it using the method ``set_context()``. This allows you to use a stateless architecture and save the context of the state machine in a database.
 - You can override the methods ``on_entry`` and ``on_exit`` in the SM. This code will be executed always at the beginning and at the end of each transition respectively.
-- Using the decorators ``@on_state_entry`` and ``@on_state_exit`` you can archieve the same as the previous point but for each state.
+- Using the decorators ``@on_state_entry`` and ``@on_state_exit`` you can achieve the same as the previous point but for each state.
